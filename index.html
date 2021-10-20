@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel's Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Display Timezone and Weather Icon -->
+    <div class="location">
+        <h1 class="location-timezone"></h1>
+        <canvas class="location-icon"></canvas>
+    </div>
+
+    <!-- Display Formatted Weather and Description -->
+    <div class="temperature">
+        <div class="temperature-format">
+            <h2 class="temperature-format-degree"></h2>
+            <span class="temperature-format-unit"></span>
+        </div>
+        <div class="temperature-description"></div>
+    </div>
+    
+    <!-- Link to scripts (skycons is a 3rd party API) -->
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

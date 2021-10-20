@@ -1,0 +1,63 @@
+/* START GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: white;
+}
+
+/* END GLOBAL STYLES */
+
+/* START CONTENT STYLES */
+
+.location-icon {
+    width: 500px;
+}
+
+.location-timezone {
+    font-size: 70px;
+}
+
+.location, .temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.temperature-format {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.temperature-format-degree {
+    font-size: 80px;
+}
+
+.temperature-format-unit {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.temperature-description {
+    font-size: 70px;
+}
+
+/* END CONTENT STYLES */
