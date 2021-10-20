@@ -6,4 +6,4 @@ This application displays the user's weather relative to their geolocation. This
 * https://cors-anywhere.herokuapp.com/ for proxying the connection to open weather map
 * https://darkskyapp.github.io/skycons/ for displaying animated weather icons
 
-This project was inspired by "Dev Ed" on Youtube.
+This project originated from "Dev Ed" on Youtube.
